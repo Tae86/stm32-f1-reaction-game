@@ -1,0 +1,8 @@
+*.o
+*.elf
+*.bin
+*.map
+*.dmp
+*.lst
+*.d
+__dump*.txt
