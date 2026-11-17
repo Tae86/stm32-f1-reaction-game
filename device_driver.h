@@ -80,3 +80,9 @@ extern void ADC1_Start(void);
 extern void ADC1_Stop(void);
 extern int ADC1_Get_Status(void);
 extern int ADC1_Get_Data(void);
+
+// ws2812.c
+
+extern void WS2812_Init(void);
+extern void WS2812_Show(unsigned char color[4][3]);
+extern void WS2812_Show_All_Same_Color(unsigned char r, unsigned char g, unsigned char b);

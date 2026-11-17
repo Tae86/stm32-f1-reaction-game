@@ -3,7 +3,7 @@
 #define TIM2_TICK         	(20) 				// usec
 #define TIM2_FREQ 	  		(1000000/TIM2_TICK)	// Hz
 #define TIME2_PLS_OF_1ms  	(1000/TIM2_TICK)
-#define TIM2_MAX	  		(0xffffu)
+#define TIM2_MAX	  		(0xffffffffu)		// TIM2는 32bit 카운터 -> 측정 한계 1.31초 제한 해제
 
 #define TIM4_TICK	  		(20) 				// usec
 #define TIM4_FREQ 	  		(1000000/TIM4_TICK) // Hz
